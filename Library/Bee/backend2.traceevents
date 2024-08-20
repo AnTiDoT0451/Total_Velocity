@@ -1,0 +1,246 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1724177896539043, "dur":23408, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896562459, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896562562, "dur":256, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896562980, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1724177896564222, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724177896564862, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724177896565086, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724177896562832, "dur":3387, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896566220, "dur":174594, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896740816, "dur":232, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896741209, "dur":1857, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1724177896563166, "dur":3148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724177896566319, "dur":767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724177896567086, "dur":1596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724177896627531, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1724177896629090, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724177896632052, "dur":7268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724177896639415, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1724177896645961, "dur":94813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724177896563262, "dur":3117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724177896566383, "dur":1134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724177896567518, "dur":1166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724177896568787, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724177896570413, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724177896572293, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724177896572844, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724177896575474, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1724177896577107, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724177896578539, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1724177896580081, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896581187, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy.exe" }}
+,{ "pid":12345, "tid":2, "ts":1724177896582551, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1724177896583145, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1724177896586211, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896589612, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896592436, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896593887, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896595968, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896598097, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896599747, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896601462, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896603487, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896605375, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896607261, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896610648, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896612770, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896616136, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896618873, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896621399, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896623915, "dur":5366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896629342, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724177896633689, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1724177896639335, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1724177896644982, "dur":95794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724177896563118, "dur":3153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724177896566278, "dur":820, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724177896567099, "dur":1581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724177896568683, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1724177896625793, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1724177896627382, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724177896630757, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724177896633952, "dur":7777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1724177896641890, "dur":98891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724177896563180, "dur":3142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724177896566325, "dur":851, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724177896567177, "dur":1504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724177896568790, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724177896606529, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1724177896609481, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896613485, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896616748, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896619338, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896621402, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896624480, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896627361, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896629689, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896632593, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896632591, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896632700, "dur":47048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724177896679775, "dur":61013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724177896563601, "dur":3098, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724177896566700, "dur":2059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724177896568765, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724177896568759, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724177896624822, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1724177896626255, "dur":3602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724177896629930, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724177896633396, "dur":23370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1724177896656809, "dur":83995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724177896563460, "dur":3151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724177896566614, "dur":823, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724177896567438, "dur":1245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724177896568684, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1724177896626804, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1724177896628511, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724177896631338, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724177896634696, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1724177896636733, "dur":3799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1724177896640602, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1724177896645642, "dur":95164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896563200, "dur":3171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896566375, "dur":919, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896567295, "dur":1382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896569656, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1724177896572501, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896572499, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896572820, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896574649, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1724177896576852, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896578197, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896578196, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896578315, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1724177896579633, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1724177896580493, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896580491, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896580585, "dur":7471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896588251, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896590251, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896592333, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896593783, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896595476, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896597683, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896598993, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896600307, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896602231, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896604055, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896605987, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896607725, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896611306, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896614406, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896619896, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896617595, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896620058, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896622070, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896625309, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896628188, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724177896628261, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896631778, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724177896635508, "dur":5378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1724177896640953, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1724177896646598, "dur":94205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724177896563711, "dur":3007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724177896566719, "dur":2037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724177896568756, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1724177896588803, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1724177896589663, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896591391, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896593039, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896594450, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896596225, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896598224, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896599350, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896600943, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896604439, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724177896602814, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896604600, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896606330, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896607613, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896609207, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896611709, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896614551, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896616792, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896620279, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896623152, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896625290, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896627657, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896631285, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724177896634188, "dur":3809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1724177896638049, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1724177896641775, "dur":99030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724177896563082, "dur":3182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724177896566268, "dur":2407, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724177896569165, "dur":642, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":9, "ts":1724177896569814, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1724177896570235, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896570379, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896570469, "dur":522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896570992, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896571196, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896571477, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896571609, "dur":1041, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896572652, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896572745, "dur":348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896573095, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896573189, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\Total Velocity\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724177896573550, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player0332236f-inputdata.json" }}
+,{ "pid":12345, "tid":9, "ts":1724177896569812, "dur":3957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1724177896574197, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724177896574694, "dur":160330, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1724177896736938, "dur":3023, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1724177896736937, "dur":3025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/Parkour naxuy_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1724177896739978, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1724177896563350, "dur":3071, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724177896566424, "dur":790, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724177896567214, "dur":1494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724177896568724, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1724177896568709, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1724177896588863, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1724177896589660, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896590813, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896592757, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896594091, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896596742, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896598486, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896599652, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896601262, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896602948, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896604683, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896606501, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896607696, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896610478, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896612279, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896617064, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896619883, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896622940, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896626175, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896629231, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724177896632636, "dur":41261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1724177896673930, "dur":66871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724177896563544, "dur":3143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724177896566691, "dur":568, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724177896567259, "dur":1451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724177896568711, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1724177896626010, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1724177896628972, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724177896633494, "dur":30375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1724177896664122, "dur":76665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724177896563654, "dur":3054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724177896566709, "dur":1970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724177896568698, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2022.3.5f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1724177896568682, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Games/Total Velocity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1724177896606948, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1724177896611377, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896618743, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724177896615047, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896618945, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896622033, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896624860, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896627639, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896631014, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724177896634588, "dur":5865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1724177896640542, "dur":17618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Games/Total Velocity/Parkour naxuy_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1724177896658226, "dur":82582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724177896745380, "dur":1011, "ph":"X", "name": "ProfilerWriteOutput" }
+,
