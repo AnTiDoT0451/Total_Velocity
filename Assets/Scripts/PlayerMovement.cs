@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {   
     [Header("Assignables")]
     //Assignables
+	private bool isPaused = false;
 	public Transform playerCam;
 	public Transform orientation;
 	private Collider playerCollider;
@@ -95,9 +96,20 @@ public class PlayerMovement : MonoBehaviour
 		Movement();
 	}
 
+	 public void SetPauseState(bool paused)
+    {
+        isPaused = paused;
+    }
+	
+	
 	private void Update()
 	{
-        //Input
+         if (isPaused)
+        {
+            return; // Skip camera movement update if paused
+        }
+	   
+	    //Input
 		MyInput();
         //Looking around
 		Look();
@@ -236,9 +248,8 @@ public class PlayerMovement : MonoBehaviour
 			    wallRunning = false;
 		    }
         }
-	}
-
-    //Looking around by using your mouse
+	}	
+	//Looking around by using your mouse
 	private void Look()
 	{
 		float num = Input.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime * sensMultiplier;

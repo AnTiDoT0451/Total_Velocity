@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - LevelTimer
     - MainMenu
     - MoveCamera
+    - PauseMenu
     - PlayerMovement
     - PlayerRespawn
     - RetryManager
@@ -84,11 +85,14 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: ExitGame
   - assembly: Assembly-CSharp
-    fullTypeName: RetryManager
-    methodName: RetryLevel
+    fullTypeName: PauseMenu
+    methodName: PauseGame
   - assembly: Assembly-CSharp
     fullTypeName: LevelCompleteTrigger
     methodName: ExitToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: ResumeGame
   sceneClasses:
     Assets/Scenes/Main Menu.unity:
     - Class: 1
@@ -130,15 +134,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4782}
     - Class: 114
-      Script: {instanceID: 5596}
+      Script: {instanceID: 5598}
     - Class: 114
-      Script: {instanceID: 6228}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6780}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 8438}
+      Script: {instanceID: 8440}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,27 +207,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5104}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5222}
     - Class: 114
-      Script: {instanceID: 5480}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5596}
+      Script: {instanceID: 5482}
     - Class: 114
-      Script: {instanceID: 6228}
+      Script: {instanceID: 5598}
     - Class: 114
-      Script: {instanceID: 6422}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 6658}
+      Script: {instanceID: 6424}
     - Class: 114
-      Script: {instanceID: 6780}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 7610}
+      Script: {instanceID: 6782}
     - Class: 114
-      Script: {instanceID: 24848}
+      Script: {instanceID: 7612}
     - Class: 114
-      Script: {instanceID: 24902}
-    - Class: 114
-      Script: {instanceID: 24912}
+      Script: {instanceID: 24958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -967,6 +969,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: a987e9a844e1fcf24a53b86e5f5d0baa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 3038996a406843c75840a9bb9dc1d72b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
@@ -1623,4 +1631,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Code Projects/Parkour naxuy.exe
+  playerPath: C:/Games/Parkour naxuy.exe

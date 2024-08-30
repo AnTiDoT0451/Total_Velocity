@@ -15,38 +15,58 @@ public class LevelCompleteTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Show the "Level Complete" image and text
-            levelCompleteImage.gameObject.SetActive(true);
-            levelCompleteText.gameObject.SetActive(true);
-
-            // Show the result text
-            levelTimer.resultText.gameObject.SetActive(true);
-
-            // Hide the timer
-            levelTimer.timerText.gameObject.SetActive(false);
-
-            // Stop the timer
-            levelTimer.StopTimer();
-
-            // Activate the Retry and Exit buttons
-            retryButton.gameObject.SetActive(true);
-            exitButton.gameObject.SetActive(true);
-
-            // Unlock the cursor
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            LevelComplete();
         }
+    }
+
+    private void LevelComplete()
+    {
+        // Show the "Level Complete" image and text
+        levelCompleteImage.gameObject.SetActive(true);
+        levelCompleteText.gameObject.SetActive(true);
+
+        // Show the result text
+        levelTimer.resultText.gameObject.SetActive(true);
+
+        // Hide the timer display
+        levelTimer.timerText.gameObject.SetActive(false);
+
+        // Stop the timer
+        levelTimer.StopTimer();
+
+        // Activate the Retry and Exit buttons
+        retryButton.gameObject.SetActive(true);
+        exitButton.gameObject.SetActive(true);
+
+        // Unlock the cursor
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        // Pause the game
+        PauseGame();
+    }
+
+    private void PauseGame()
+    {
+        // Set time scale to 0 to pause the game
+        Time.timeScale = 0f;
     }
 
     public void RetryLevel()
     {
+        // Reset time scale to 1 to resume normal game speed
+        Time.timeScale = 1f;
+
         // Reload the current scene to restart the level
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ExitToMainMenu()
     {
-        // Load the main menu scene (assuming it's at index 0)
+        // Reset time scale to 1 before exiting to main menu
+        Time.timeScale = 1f;
+
+        // Load the main menu scene (assuming it's at index 0 in the build settings)
         SceneManager.LoadScene(0);
     }
 }
