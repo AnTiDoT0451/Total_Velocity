@@ -42,15 +42,10 @@ public class PlayerRespawn : MonoBehaviour
         transform.position = checkpoint.position;
         transform.rotation = checkpoint.rotation;
 
-        // Reset the camera holder's rotation to align with the checkpoint's rotation
+        // Reset the camera holder's rotation to (0,0,0)
         if (cameraHolder != null)
         {
-            // Set the camera holder's rotation to match the checkpoint's rotation
-            cameraHolder.transform.rotation = checkpoint.rotation;
-
-            // Reset both pitch (X rotation) and roll (Z rotation) to zero, ensure the camera faces forward
-            Vector3 eulerAngles = cameraHolder.transform.eulerAngles;
-            cameraHolder.transform.eulerAngles = new Vector3(0, eulerAngles.y, 0);
+            cameraHolder.transform.rotation = Quaternion.Euler(0, 0, 0); // Reset camera to (0,0,0)
         }
 
         // Optionally, reset the player's velocity if you're using a Rigidbody
@@ -73,14 +68,10 @@ public class PlayerRespawn : MonoBehaviour
         transform.position = originalPosition;
         transform.rotation = originalRotation;
 
-        // Reset the camera holder's rotation to the original rotation
+        // Reset the camera holder's rotation to (0,0,0)
         if (cameraHolder != null)
         {
-            cameraHolder.transform.rotation = originalRotation;
-
-            // Reset both pitch (X rotation) and roll (Z rotation) to zero, ensure the camera faces forward
-            Vector3 eulerAngles = cameraHolder.transform.eulerAngles;
-            cameraHolder.transform.eulerAngles = new Vector3(0, eulerAngles.y, 0);
+            cameraHolder.transform.rotation = Quaternion.Euler(0, 0, 0); // Reset camera to (0,0,0)
         }
 
         // Reset the timer when the player is reset
